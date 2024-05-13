@@ -1,0 +1,1753 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+body {
+  background: #011222;
+  overflow-x: hidden;
+}
+
+.nav2 {
+  display: inline;
+  margin-top: 10px;
+  /* position: fixed; */
+ 
+}
+.nav {
+  margin-top: 20px;
+ 
+
+}
+
+#ali {
+  margin-left: 20px;
+  display: inline;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: green;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 3em;
+  z-index: 1;
+  position: relative;
+  text-shadow: 5px 5px 7px #fff;
+  animation: asghar 3s ease-in infinite 2.4s;
+}
+#ali::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background: #011222;
+  animation: one 2.1s ease forwards 2.8s;
+  animation-delay: 1s;
+}
+@keyframes one {
+  100% {
+    width: 0;
+  }
+}
+
+@keyframes asghar {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 10;
+    transition: 2.8s;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+#ali::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 100%;
+  height: 3px;
+  background: #fff;
+  border-radius: 5px;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 1.7s;
+  color: #fff;
+}
+#ali:hover::after {
+  transform-origin: left;
+  transform: scaleX(1);
+  color: #fff;
+}
+#ali:hover {
+  color: #fff;
+  transition: transform 2.7s;
+}
+
+#Home {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: green;
+  font-style: italic;
+  font-weight: bold;
+  text-shadow: 4px 4px 3px #fff;
+  position: relative;
+  left: 170px;
+  font-size: 2.3em;
+}
+#Home::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background: #011222;
+  animation: two 2.1s ease forwards 0.8s;
+  animation-delay: 2s;
+}
+@keyframes two {
+  100% {
+    width: 0;
+  }
+}
+#Home::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 3px;
+  background: green;
+  border-radius: 5px;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 1.7s;
+  color: green;
+}
+#Home:hover::after {
+  transform-origin: left;
+  transform: scaleX(1);
+  color: green;
+}
+#Home:hover {
+  color: green;
+  transition: transform 2.7s;
+}
+
+#contact {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #fff;
+  font-style: italic;
+  font-weight: bold;
+  text-shadow: 4px 4px 3px green;
+  position: relative;
+  left: 220px;
+  font-size: 2em;
+}
+
+#contact::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background: #011222;
+  animation: thre 2.1s ease forwards 0.8s;
+  animation-delay: 3s;
+}
+@keyframes thre {
+  100% {
+    width: 0;
+  }
+}
+
+#contact::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 3px;
+  background: green;
+  border-radius: 5px;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 1.7s;
+  color: green;
+}
+#contact:hover::after {
+  transform-origin: left;
+  transform: scaleX(1);
+  color: #fff;
+}
+#contact:hover {
+  color: green;
+  transition: transform 2.7s;
+}
+
+#about {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #fff;
+  font-style: italic;
+  font-weight: bold;
+  text-shadow: 4px 4px 3px green;
+  position: relative;
+  left: 270px;
+  font-size: 2em;
+  z-index: 2;
+}
+
+#about::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background: #011222;
+  animation: thre 2.1s ease forwards 0.8s;
+  animation-delay: 4s;
+}
+@keyframes thre {
+  100% {
+    width: 0;
+  }
+}
+
+#about::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 3px;
+  background: green;
+  border-radius: 5px;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 1.7s;
+  color: green;
+}
+#about:hover::after {
+  transform-origin: left;
+  transform: scaleX(1);
+  color: #fff;
+}
+#about:hover {
+  color: green;
+  transition: transform 2.7s;
+}
+
+#service {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #fff;
+  font-style: italic;
+  font-weight: bold;
+  text-shadow: 4px 4px 3px green;
+  position: relative;
+  left: 320px;
+  font-size: 2em;
+  z-index: 2;
+}
+
+#service::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background: #011222;
+  animation: four 2.1s ease forwards 0.8s;
+  animation-delay: 5s;
+}
+@keyframes four {
+  100% {
+    width: 0;
+  }
+}
+
+#service::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  height: 3px;
+  width: 100%;
+  background: green;
+  border-radius: 5px;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 1.4s;
+  color: green;
+}
+
+#service:hover::after {
+  transform-origin: left;
+  transform: scaleX(1);
+  transition: transform 1.4s;
+  color: #fff;
+}
+
+#service:hover {
+  color: green;
+}
+
+#skills {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #fff;
+  font-style: italic;
+  font-weight: bolder;
+  font-weight: bolder;
+  text-shadow: 4px 4px 3px green;
+  position: relative;
+  left: 370px;
+  font-size: 2em;
+}
+
+#skills::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background: #011222;
+  animation: five 2.1s ease forwards 0.8s;
+  animation-delay: 6s;
+}
+@keyframes five {
+  100% {
+    width: 0;
+  }
+}
+
+#skills::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  height: 3px;
+  width: 100%;
+  background: green;
+  border-radius: 5px;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 1.4s;
+  color: green;
+}
+
+#skills:hover::after {
+  transform-origin: left;
+  transform: scaleX(1);
+  transition: transform 1.4s;
+  color: rgba(0, 128, 0, 0.639);
+}
+#skills:hover {
+  color: green;
+}
+
+.intro {
+  position: relative;
+  left: 30px;
+  top: 100px;
+  color: #fff;
+}
+
+#gap {
+  color: green;
+}
+
+h1 {
+  padding-left: 10px;
+  gap: 5px;
+}
+
+h1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background: #011222;
+  animation: tag 2.1s ease forwards 2.8s;
+  animation-delay: 7s;
+}
+@keyframes tag {
+  100% {
+    width: 0;
+  }
+}
+
+#green {
+  color: green;
+  font-size: 3rem;
+  cursor: move;
+  /* text-shadow: 3px 5px 4px #fff; */
+  animation: ali 3s ease-in infinite 3.4s;
+  animation-delay: 4.4s;
+}
+
+@keyframes ali {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 10;
+    transition: 4.8s;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+#about {
+  font-size: 2.1rem;
+  margin-top: 3px;
+}
+
+#txt {
+  color: green;
+  font-weight: bold;
+  text-shadow: 7px 7px 2px black;
+  font-size: 2.1rem;
+  /* text-shadow: 3px 5px 4px #fff; */
+  cursor: cell;
+}
+
+#mmm {
+  color: #fff;
+  font-size: 2rem;
+  margin-top: 10px;
+}
+
+#hi {
+  font-size: 20px;
+  position: absolute;
+  top: 9.5rem;
+  line-height: 30px;
+  gap: 30px;
+  letter-spacing: 1.3px;
+}
+#asghar {
+  text-decoration: none;
+  font-size: 30px;
+  font-style: inherit;
+  color: green;
+  cursor: pointer;
+}
+
+#cv {
+  height: 55px;
+  width: 160px;
+  position: relative;
+  left: 250px;
+  bottom: 20px;
+  font-size: 1.5rem;
+  color: #fff;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background: green;
+  border-radius: 15px;
+  outline: 2.5px solid #fff;
+  outline-offset: -9px;
+  transition: 0.4s;
+}
+
+#cv:hover {
+  transition: 0.6s ease-in-out 0.5s;
+  outline: 4.5px solid #fff;
+  outline-offset: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 0 5rem green, 0 0 25rem green, 0 0 50rem green, 0 0 100rem green;
+}
+
+#cv::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background: #011222;
+  animation: btn 2.1s ease forwards 0.8s;
+  animation-delay: 11s;
+}
+@keyframes btn {
+  100% {
+    width: 0;
+  }
+}
+
+#hire {
+  height: 55px;
+  width: 160px;
+  position: relative;
+  left: 280px;
+  bottom: 20px;
+  font-size: 1.5rem;
+  color: #fff;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background: green;
+  border-radius: 15px;
+  outline: 2.5px solid #fff;
+  outline-offset: -9px;
+  transition: 0.4s;
+}
+
+#hire:hover {
+  transition: 0.6s ease-in-out 0.5s;
+  outline: 4.5px solid #fff;
+  outline-offset: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 0 5rem green, 0 0 25rem green, 0 0 50rem green, 0 0 100rem green;
+}
+
+#hire::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background: #011222;
+  animation: cv 2.1s ease forwards 0.8s;
+  animation-delay: 11.4s;
+}
+@keyframes cv {
+  100% {
+    width: 0;
+  }
+}
+
+#clr {
+  color: #fff;
+  text-shadow: 3px 3px 2px green;
+}
+
+#img {
+  height: 600px;
+  width: 400px;
+  position: relative;
+  object-fit: cover;
+  left: 650px;
+  bottom: 540px;
+  animation: pic 2.1s ease forwards;
+  opacity: 0;
+  animation-delay: 11.5s;
+  transition: 2s ease-in;
+}
+@keyframes pic {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+#img:hover {
+  transition: 1.7s ease-in 2s;
+  filter: drop-shadow(10px 10px 15px green);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+p {
+}
+
+p::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background: #011222;
+  animation: paa 2.1s ease forwards 0.8s;
+  animation-delay: 8.7s;
+}
+@keyframes paa {
+  100% {
+    width: 0;
+  }
+}
+
+#ser {
+  position: fixed;
+  right: 70px;
+  top: 40px;
+  list-style: none;
+  color: #fff;
+  transition: 1.2s ease;
+}
+
+#ser:hover {
+  color: green;
+  transition: 1.2s ease;
+}
+
+#git {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid green;
+  color: #fff;
+  position: relative;
+  left: 190px;
+  bottom: -150px;
+  padding-left: 2px;
+  padding-top: 3px;
+  list-style: none;
+  font-size: 1.3rem;
+  transition: 1.2s ease;
+}
+
+#git::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: #011222;
+  animation: git 2s ease-in forwards;
+  animation-delay: 9s;
+}
+
+@keyframes git {
+  100% {
+    width: 0;
+  }
+}
+
+#git:hover {
+  color: black;
+  box-shadow: 0 0 5px green, 0 0 25px green, 0 0 50px green, 0 0 100px green;
+}
+a {
+  color: #fff;
+}
+
+a:hover {
+  color: green;
+}
+#link {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid green;
+  color: green;
+  position: relative;
+  left: 250px;
+  top: 100px;
+  padding-left: 3px;
+  padding-top: 3px;
+  list-style: none;
+  font-size: 1.3rem;
+  transition: 1.2s ease;
+}
+
+#link::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: #011222;
+  animation: link 2s ease-in forwards;
+  animation-delay: 9.4s;
+}
+
+@keyframes link {
+  100% {
+    width: 0;
+  }
+}
+
+#link:hover {
+  color: black;
+  box-shadow: 0 0 5px green, 0 0 25px green, 0 0 50px green, 0 0 100px green;
+}
+
+#ins {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid green;
+  color: green;
+  position: relative;
+  left: 310px;
+  top: 50px;
+  padding-left: 3px;
+  padding-top: 3px;
+  list-style: none;
+  font-size: 1.3rem;
+  transition: 1.2s ease;
+}
+
+#ins::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: #011222;
+  animation: ins 2s ease-in forwards;
+  animation-delay: 9.8s;
+}
+
+@keyframes ins {
+  100% {
+    width: 0;
+  }
+}
+
+#ins:hover {
+  color: black;
+  box-shadow: 0 0 5px green, 0 0 25px green, 0 0 50px green, 0 0 100px green;
+}
+
+#twit {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid green;
+  color: green;
+  position: relative;
+  padding-left: 3px;
+  padding-top: 3px;
+  left: 370px;
+  top: 1px;
+  list-style: none;
+  font-size: 1.3rem;
+  transition: 1.2s ease;
+}
+
+#twit::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: #011222;
+  animation: tws 2s ease-in forwards;
+  animation-delay: 10.2s;
+}
+
+@keyframes tws {
+  100% {
+    width: 0;
+  }
+}
+
+#twit:hover {
+  color: black;
+  box-shadow: 0 0 5px green, 0 0 25px green, 0 0 50px green, 0 0 100px green;
+}
+
+#yt {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid green;
+  color: #fff;
+  position: relative;
+  padding-left: 0;
+  padding-top: 3px;
+  left: 430px;
+  top: -50px;
+  list-style: none;
+  font-size: 1.3rem;
+  transition: 1.2s ease;
+  cursor: pointer;
+}
+
+#yt::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: #011222;
+  animation: yt 2s ease-in forwards;
+  animation-delay: 10.7s;
+}
+
+@keyframes yt {
+  100% {
+    width: 0;
+  }
+}
+
+#yt:hover {
+  color: green;
+  box-shadow: 0 0 5px green, 0 0 25px green, 0 0 50px green, 0 0 100px green;
+}
+
+#know {
+  position: absolute;
+  top: 650px;
+  bottom: 10px;
+  height: 550px;
+  width: 100%;
+  z-index: 3;
+  background: rgba(0, 0, 0, 0.929);
+  /* border: 2px solid #fff; */
+}
+
+#abot {
+  color: green;
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  margin-top: 10px;
+  font-size: 3rem;
+  animation: read 2s ease-in 0.4s infinite;
+}
+
+@keyframes read {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 10;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+#abot:hover {
+  text-shadow: 4px 4px 5px #fff;
+}
+
+#self {
+  color: #fff;
+  margin-top: 100px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+}
+
+.ghan {
+  height: 600px;
+  width: 400px;
+  position: relative;
+  object-fit: cover;
+  left: 50px;
+  bottom: 250px;
+  animation: ppp 2.1s ease forwards;
+  opacity: 0;
+  animation-delay: 1s;
+  transition: 2s ease-in;
+}
+@keyframes ppp {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.ghan:hover {
+  transition: 1.7s ease-in 2s;
+  filter: drop-shadow(10px 10px 15px green);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+#read {
+  color: #fff;
+  float: right;
+  font-size: 16px;
+  display: inline;
+  letter-spacing: 4px;
+  height: 300px;
+  width: 500px;
+  position: absolute;
+  top: 220px;
+  left: 530px;
+}
+
+#more {
+  height: 55px;
+  width: 160px;
+  position: absolute;
+  top: 390px;
+  right: 550px;
+  font-size: 1.5rem;
+  color: #fff;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background: green;
+  border-radius: 15px;
+  /* outline: 2.5px solid #fff;
+    outline-offset: -9px; */
+  transition: 0.4s;
+  box-shadow: -5px -3px 5px green, 4px 5px 5px #fff;
+}
+
+#more:hover {
+  transition: 0.6s ease-in-out 0.5s;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 4px 3px 2px green, -5px -4px 5px #fff;
+  box-shadow: 0 0 5rem green, 0 0 25rem green, 0 0 50rem green, 0 0 100rem green;
+}
+
+#sskk {
+  position: relative;
+  top: 10px;
+  height: 610px;
+  width: 100%;
+  z-index: 3;
+  background: rgba(0, 0, 0, 0.929);
+  display: flex;
+  justify-content: center;
+}
+
+#skl1 {
+  width: 220px;
+  height: 70px;
+  position: relative;
+  left: 400px;
+  color: green;
+  padding-top: 20px;
+  font-size: 3rem;
+  z-index: 1;
+  cursor: pointer;
+  animation: skk 2s ease-in 0.4s infinite;
+}
+
+@keyframes skk {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 10;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+#skl1:hover {
+  text-shadow: 4px 4px 5px #fff;
+}
+
+.one1 {
+  margin-top: 100px;
+  position: relative;
+  left: -200px;
+  height: 600px;
+  width: 800px;
+  /* border: 2px solid #fff; */
+}
+
+#front {
+  color: #fff;
+  position: relative;
+  top: 10px;
+  left: 150px;
+  cursor: pointer;
+}
+#front::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 3.5px;
+  top: 30px;
+  width: 30%;
+  background-color: green;
+  color: green;
+  border-radius: 20px;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 2.6s;
+  transition-delay: 0.6s;
+}
+#front:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+  transition: transform 1.6s;
+  color: green;
+}
+#front:hover {
+  color: green;
+}
+
+#html {
+  position: relative;
+  top: 20px;
+  left: 160px;
+  color: green;
+  font-size: 1rem;
+  list-style: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#sc1 {
+  position: relative;
+  top: 26px;
+  left: 120px;
+  height: 15px;
+  width: 2%;
+  border: 1px solid #fff;
+  background: #fff;
+  border-radius: 5px;
+  transition: 2s ease-in 0.7s;
+  cursor: pointer;
+}
+
+#sc1:hover {
+  width: 72%;
+  transition: 2s ease-in 0.7s;
+  background: green;
+}
+
+#css {
+  position: relative;
+  top: 40px;
+  left: 160px;
+  color: green;
+  font-size: 1rem;
+  list-style: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#sc2 {
+  position: relative;
+  top: 46px;
+  left: 120px;
+  height: 15px;
+  width: 2%;
+  border: 1px solid #fff;
+  background: #fff;
+  border-radius: 5px;
+  transition: 2s ease-in 0.7s;
+  cursor: pointer;
+}
+
+#sc2:hover {
+  width: 62%;
+  transition: 2s ease-in 0.7s;
+  background: green;
+}
+
+#js {
+  position: relative;
+  top: 60px;
+  left: 160px;
+  color: green;
+  font-size: 1rem;
+  list-style: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#sc3 {
+  position: relative;
+  top: 66px;
+  left: 120px;
+  height: 15px;
+  width: 2%;
+  border: 1px solid #fff;
+  background: #fff;
+  border-radius: 5px;
+  transition: 2s ease-in 0.7s;
+  cursor: pointer;
+}
+
+#sc3:hover {
+  width: 52%;
+  transition: 2s ease-in 0.7s;
+  background: green;
+}
+
+#prog {
+  color: #fff;
+  position: relative;
+  top: 100px;
+  left: 150px;
+  cursor: pointer;
+  transition: 0.7s ease-in;
+}
+#prog::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 3.5px;
+  top: 30px;
+  width: 31%;
+  background-color: green;
+  color: green;
+  border-radius: 20px;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 2.6s;
+  transition-delay: 0.6s;
+}
+#prog:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+  transition: transform 1.6s;
+  color: green;
+}
+#prog:hover {
+  color: green;
+  transition: transform 1.6s;
+}
+
+#java {
+  position: relative;
+  top: 110px;
+  left: 160px;
+  color: green;
+  font-size: 1rem;
+  list-style: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#sc4 {
+  position: relative;
+  top: 116px;
+  left: 120px;
+  height: 15px;
+  width: 2%;
+  border: 1px solid #fff;
+  background: #fff;
+  border-radius: 5px;
+  transition: 2s ease-in 0.7s;
+  cursor: pointer;
+}
+
+#sc4:hover {
+  width: 57.5%;
+  transition: 2s ease-in 0.7s;
+  background: green;
+}
+
+#c_lan {
+  position: relative;
+  top: 135px;
+  left: 160px;
+  color: green;
+  font-size: 1rem;
+  list-style: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#sc5 {
+  position: relative;
+  top: 141px;
+  left: 120px;
+  height: 15px;
+  width: 2%;
+  border: 1px solid #fff;
+  background: #fff;
+  border-radius: 5px;
+  transition: 2s ease-in 0.7s;
+  cursor: pointer;
+}
+
+#sc5:hover {
+  width: 57.5%;
+  transition: 2s ease-in 0.7s;
+  background: green;
+}
+
+#c1_lan {
+  position: relative;
+  top: 155px;
+  left: 160px;
+  color: green;
+  font-size: 1rem;
+  list-style: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#sc6 {
+  position: relative;
+  top: 161px;
+  left: 120px;
+  height: 15px;
+  width: 2%;
+  border: 1px solid #fff;
+  background: #fff;
+  border-radius: 5px;
+  transition: 2s ease-in 0.7s;
+  cursor: pointer;
+}
+
+#sc6:hover {
+  width: 53%;
+  transition: 2s ease-in 0.7s;
+  background: green;
+}
+
+.service {
+  position: relative;
+  top: 250px;
+  height: 550px;
+  width: 120%;
+  /* border: 2px solid #fff; */
+}
+
+#page {
+  color: #fff;
+  position: relative;
+  top: -20px;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+#ser1 {
+  color: #fff;
+  position: relative;
+  bottom: 296px;
+  left: 350px;
+  font-size: 3.3rem;
+  color: green;
+  text-shadow: 4px 4px 3px #fff;
+}
+
+#website {
+
+  position: relative;
+  z-index: 1;
+  bottom: 250px;
+  left: 0;
+  height: 350px;
+  width: 300px;
+  border-radius: 20px;
+  background: black;
+  /* border: 1px solid #fff; */
+  transition: 0.6s ease 0.6s;
+}
+#website:hover{
+  transform: translateY(-34px);
+  transition: 0.6s ease 0.6s;
+  cursor: pointer;
+}
+
+li {
+  margin-left: 100px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#code {
+  color: #fff;
+  z-index: 2;
+  position: relative;
+  top: -40px;
+  height: 80px;
+  width: 80px;
+  border: 1px solid green;
+  border-radius: 50%;
+  font-size: 20px;
+  background-color: green;
+  list-style: none;
+}
+
+#code:hover {
+  background: green;
+  color: black;
+  border: 1px solid black;
+  box-shadow: 0px 0px 5px green, 0px 0px 25px green, 0px 0px 50px green,
+    0px 0px 100px green;
+}
+
+#dev1 {
+  color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -25px;
+  font-size: 2.1rem;
+  /* text-shadow: 4px 4px 3px #fff; */
+}
+
+#dev1:hover {
+  opacity: 1.3;
+  cursor: pointer;
+}
+
+#para {
+  color: #fff;
+  font-size: 1.5px;
+  letter-spacing: 1.4px;
+  position: relative;
+  top: -20px;
+  padding-left: 25px;
+}
+
+#btn {
+  height: 55px;
+  width: 160px;
+  margin-top: 35px;
+  margin-left: 60px;
+  font-size: 1.5rem;
+  color: #fff;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background: black;
+  border-radius: 15px;
+  position: relative;
+  bottom: -25px;
+  border-left: none;
+  /* outline: 2.5px solid #fff;
+    outline-offset: -9px; */
+  transition: 0.4s;
+}
+
+#btn:hover {
+  transition: 0.6s ease-in-out 0.5s;
+  /*\\ outline: 4.5px solid #fff;
+    outline-offset: 6px; */
+  font-weight: bold;
+  color: black;
+  background: green;
+  cursor: pointer;
+  box-shadow: 0 0 5rem green, 0 0 25rem green, 0 0 50rem green, 0 0 100rem green;
+}
+
+.graph {
+  position: relative;
+  bottom: 360px;
+  left: 330px;
+  height: 350px;
+  width: 300px;
+  border-radius: 20px;
+  background: black;
+  /* border: 1px solid #fff; */
+  transition: 0.6s ease 0.8s;
+}
+.graph:hover {
+  transition: .6s ease .8s;
+    transform:translateY(1px); 
+  cursor: pointer;
+  /* box-shadow: 0px 0px 5px green, 0px 0px 25px green, 0px 0px 50px green,
+    0px 0px 100px green; */
+}
+
+li {
+  margin-left: 100px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#code1 {
+  position: relative;
+  top: -40px;
+  color: #fff;
+  z-index: 2;
+  height: 80px;
+  width: 80px;
+  border: 1px solid green;
+  border-radius: 50%;
+  font-size: 20px;
+  background-color: green;
+  list-style: none;
+}
+
+#code1:hover {
+  background: green;
+  color: black;
+  border: 1px solid black;
+  box-shadow: 0px 0px 5px green, 0px 0px 25px green, 0px 0px 50px green,
+    0px 0px 100px green;
+}
+
+#dev2 {
+  color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -25px;
+  font-size: 2.1rem;
+  /* text-shadow: 4px 4px 3px #fff; */
+}
+
+#dev2:hover {
+  opacity: 1.3;
+  cursor: pointer;
+}
+
+#para2 {
+  color: #fff;
+  font-size: 16.5px;
+  letter-spacing: 1.3px;
+  padding-left: 25px;
+  position: relative;
+  top: 3px;
+  /* padding-top: 27px;
+    padding-right: 9px; */
+}
+
+#btn1 {
+  height: 55px;
+  width: 160px;
+  margin-top: 35px;
+  margin-left: 60px;
+  font-size: 1.5rem;
+  color: #fff;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background: black;
+  border-radius: 15px;
+  position: relative;
+  bottom: -55px;
+  border-left: none;
+  /* outline: 2.5px solid #fff;
+    outline-offset: -9px; */
+  transition: 0.4s;
+}
+
+#btn1:hover {
+  transition: 0.6s ease-in-out 0.5s;
+  /*\\ outline: 4.5px solid #fff;
+    outline-offset: 6px; */
+  font-weight: bold;
+  color: black;
+  background: green;
+  cursor: pointer;
+  box-shadow: 0 0 5rem green, 0 0 25rem green, 0 0 50rem green, 0 0 100rem green;
+}
+
+.coder {
+  position: relative;
+  bottom: 360px;
+  left: 333px;
+  height: 350px;
+  width: 300px;
+  border-radius: 20px;
+  background: black;
+  /* border: 1px solid #fff; */
+  transition: 0.6s ease 0.6s;
+}
+.coder:hover {
+  transition: 0.6s ease 0.6s;
+  transform: translateY(-35px);
+  cursor: pointer;
+  /* box-shadow: 0px 0px 5px green, 0px 0px 25px green, 0px 0px 50px green,
+    0px 0px 100px green; */
+}
+
+li {
+  margin-left: 100px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#code3 {
+  margin-top: 45px;
+  position: relative;
+  top: -40px;
+  color: #fff;
+  z-index: 2;
+  height: 80px;
+  width: 80px;
+  border: 1px solid green;
+  border-radius: 50%;
+  font-size: 20px;
+  background-color: green;
+  list-style: none;
+}
+
+#code3:hover {
+  background: green;
+  color: black;
+  border: 1px solid black;
+  box-shadow: 0px 0px 5px green, 0px 0px 25px green, 0px 0px 50px green,
+    0px 0px 100px green;
+}
+
+#dev {
+  color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -25px;
+  font-size: 2.1rem;
+  /* text-shadow: 4px 4px 3px #fff; */
+}
+
+#dev:hover {
+  opacity: 1.3;
+  cursor: pointer;
+}
+
+#para {
+  color: #fff;
+  font-size: 16.5px;
+  letter-spacing: 1.3px;
+  padding-left: 25px;
+  position: relative;
+  top: -25px;
+  padding-top: 27px;
+  padding-right: 9px;
+}
+
+#btn {
+  height: 55px;
+  width: 160px;
+  margin-top: 35px;
+  margin-left: 60px;
+  font-size: 1.5rem;
+  color: #fff;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background: black;
+  border-radius: 15px;
+  border-left: none;
+  transition: 0.4s;
+}
+
+#btn:hover {
+  transition: 0.6s ease-in-out 0.5s;
+  font-weight: bold;
+  color: black;
+  background: green;
+  cursor: pointer;
+  box-shadow: 0 0 5rem green, 0 0 25rem green, 0 0 50rem green, 0 0 100rem green;
+}
+
+.cct {
+  margin-top: 250px;
+  height: 430px;
+  width: 330%;
+  cursor: text;
+
+  /* border: 1px solid #fff; */
+}
+
+#msg {
+  color: #fff;
+  font-size: 0.8rem;
+  position: relative;
+  right: 200px;
+  top: -111px;
+  
+}
+
+
+#num {
+  color: green;
+  font-size: 2rem;
+  position: relative;
+  cursor: text;
+  right: 240px;
+  top: -100px;
+  cursor: pointer;
+}
+
+/* #nam1{
+    color: #fff;
+    position: relative;
+  bottom:-150px;
+  right:400px;
+    font-size: 20px;
+} */
+
+#myname {
+  position: relative;
+  top: -70px;
+  right: 430px;
+  font-size: 18px;
+  padding-left: 10px;
+  height: 40px;
+  color: black;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+#myname:hover {
+  background-color: transparent;
+  border: 1.2px solid green;
+  color: #fff;
+  transition: 0.9s ease-in;
+  border-color: green;
+}
+
+#myadd {
+  position: relative;
+  top: -70px;
+  right: 400px;
+  font-size: 18px;
+  padding-left: 10px;
+  height: 40px;
+  color: black;
+  border: 1px solid #fff;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+#myadd:hover {
+  background-color: transparent;
+  border: 1.2px solid green;
+  color: #fff;
+  transition: 0.9s ease-in;
+  border-color: green;
+}
+
+#myemail {
+  position: relative;
+  top: -10px;
+  right: 910px;
+  font-size: 18px;
+  padding-left: 10px;
+  height: 40px;
+  color: black;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+
+#myemail:hover {
+  background-color: transparent;
+  border: 1.2px solid green;
+  color: #fff;
+  transition: 0.9s ease-in;
+  border-color: green;
+}
+
+#mypass {
+  position: relative;
+  top: -10px;
+  right: 910px;
+  font-size: 18px;
+  padding-left: 10px;
+  height: 40px;
+  color: black;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  margin-left: 30px;
+}
+
+#mypass:hover {
+  background-color: transparent;
+  border: 1.2px solid green;
+  color: #fff;
+  transition: 0.9s ease-in;
+  border-color: green;
+}
+
+#feed {
+  /* background: transparent; */
+  position: relative;
+  top: 10px;
+  right: 450px;
+  font-size: 18px;
+  padding-left: 10px;
+  height: 40px;
+  width: 50%;
+  color: black;
+  padding-top: 8px;
+  box-shadow: 0 0 15px black;
+  border: 1px solid #fff;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-left: 30px;
+  transition: 0.9s ease-in;
+}
+
+#feed:hover {
+  background-color: transparent;
+  border: 1.2px solid green;
+  color: #fff;
+  /* transition: .9s ease-in; */
+  border-color: green;
+}
+
+#send {
+  height: 55px;
+  width: 160px;
+  margin-top: 35px;
+  margin-left: 60px;
+  font-size: 1.5rem;
+  color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  position: relative;
+  bottom: 20px;
+  position: relative;
+  bottom: -15px;
+  right: 307px;
+  padding-bottom: 5px;
+  background: #fff;
+  border-radius: 15px;
+  border-left: none;
+  transition: 1.4s;
+  outline: 3.1px solid green;
+  outline-offset: -8.6px;
+}
+
+#send:hover {
+  outline: 4.9px solid #fff;
+  outline-offset: 4px;
+  transition: 0.6s ease-in-out 0.5s;
+  font-weight: bold;
+  color: black;
+  background: green;
+  cursor: pointer;
+  box-shadow: 0 0 5rem green, 0 0 25rem green, 0 0 50rem green, 0 0 100rem green;
+}
